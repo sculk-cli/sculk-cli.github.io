@@ -4,13 +4,19 @@ site_url: https://sculk-cli.github.io
 site_author: The Sculk Team
 
 repo_url: https://github.com/sculk-cli/sculk-cli.github.io
-repo_name: JamCoreModding/sculk-cli.github.io
+repo_name: sculk-cli/sculk-cli.github.io
 
 extra_css:
   - stylesheets/extra.css
 
 nav:
   - Welcome: index.md
+  - Guides:
+    - 'Getting Started': guides/getting-started.md
+  - Commands:
+      - Init: commands/init.md
+  - 'Manifest Format':
+      - 'manifest.sculk.json': manifest-format/manifest-sculk-json.md
 
 theme:
   name: material
