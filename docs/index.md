@@ -1,0 +1,1 @@
+![Sculk: a program for creating Minecraft modpacks](https://github.com/sculk-cli/sculk/blob/main/banner.png?raw=true)
