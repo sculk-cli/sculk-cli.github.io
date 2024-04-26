@@ -5,4 +5,19 @@
          <lastmod>2024-04-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://sculk-cli.github.io/commands/init/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sculk-cli.github.io/guides/getting-started/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sculk-cli.github.io/manifest-format/manifest-sculk-json/</loc>
+         <lastmod>2024-04-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>

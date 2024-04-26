@@ -12,26 +12,28 @@
         <meta name="author" content="The Sculk Team">
       
       
-        <link rel="canonical" href="https://sculk-cli.github.io/">
+        <link rel="canonical" href="https://sculk-cli.github.io/commands/init/">
       
       
+        <link rel="prev" href="../../guides/getting-started/">
       
-        <link rel="next" href="guides/getting-started/">
+      
+        <link rel="next" href="../../manifest-format/manifest-sculk-json/">
       
       
-      <link rel="icon" href="assets/sculk-icon.png">
+      <link rel="icon" href="../../assets/sculk-icon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.19">
     
     
       
-        <title>Sculk</title>
+        <title>Init - Sculk</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,11 +52,11 @@
       
     
     
-      <link rel="stylesheet" href="css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -63,11 +65,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Welcome" >
+        <meta  property="og:title"  content="Init - Sculk" >
       
         <meta  property="og:description"  content="Documentation for Sculk, a program for creating Minecraft modpacks." >
       
-        <meta  property="og:image"  content="https://sculk-cli.github.io/assets/images/social/index.png" >
+        <meta  property="og:image"  content="https://sculk-cli.github.io/assets/images/social/commands/init.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -75,15 +77,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://sculk-cli.github.io/" >
+        <meta  property="og:url"  content="https://sculk-cli.github.io/commands/init/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Welcome" >
+        <meta  name="twitter:title"  content="Init - Sculk" >
       
         <meta  name="twitter:description"  content="Documentation for Sculk, a program for creating Minecraft modpacks." >
       
-        <meta  name="twitter:image"  content="https://sculk-cli.github.io/assets/images/social/index.png" >
+        <meta  name="twitter:image"  content="https://sculk-cli.github.io/assets/images/social/commands/init.png" >
       
     
     
@@ -103,11 +105,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#why-sculk" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -120,7 +117,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="https://github.com/sculk-cli" title="Sculk" class="md-header__button md-logo" aria-label="Sculk" data-md-component="logo">
       
-  <img src="assets/sculk-icon.png" alt="logo">
+  <img src="../../assets/sculk-icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -137,7 +134,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome
+              Init
             
           </span>
         </div>
@@ -223,11 +220,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
     
@@ -246,7 +241,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="guides/getting-started/" class="md-tabs__link">
+        <a href="../../guides/getting-started/" class="md-tabs__link">
           
   
     
@@ -262,11 +257,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="commands/init/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
     
@@ -286,7 +283,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="manifest-format/manifest-sculk-json/" class="md-tabs__link">
+        <a href="../../manifest-format/manifest-sculk-json/" class="md-tabs__link">
           
   
     
@@ -323,7 +320,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://github.com/sculk-cli" title="Sculk" class="md-nav__button md-logo" aria-label="Sculk" data-md-component="logo">
       
-  <img src="assets/sculk-icon.png" alt="logo">
+  <img src="../../assets/sculk-icon.png" alt="logo">
 
     </a>
     Sculk
@@ -347,28 +344,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Welcome
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -377,42 +356,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-sculk" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why Sculk?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how" class="md-nav__link">
-    <span class="md-ellipsis">
-      How?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -468,7 +411,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/getting-started/" class="md-nav__link">
+      <a href="../../guides/getting-started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -493,8 +436,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -503,19 +448,20 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -526,7 +472,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Commands
@@ -537,10 +483,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="commands/init/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -549,6 +502,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -612,7 +566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="manifest-format/manifest-sculk-json/" class="md-nav__link">
+      <a href="../../manifest-format/manifest-sculk-json/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -651,32 +605,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#why-sculk" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why Sculk?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how" class="md-nav__link">
-    <span class="md-ellipsis">
-      How?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -693,28 +621,9 @@
   
 
 
-  <h1>Welcome</h1>
+  <h1>Init</h1>
 
-<p><img alt="Sculk: a program for creating Minecraft modpacks" src="https://github.com/sculk-cli/sculk/blob/main/banner.png?raw=true" /></p>
-<blockquote>
-<p><strong>Warning</strong>
-Sculk is still in early development and may be unstable</p>
-</blockquote>
-<p>Sculk is a CLI tool for creating Minecraft modpacks, much like Packwiz. It is <strong>aimed at modpack creators</strong>, rather than users (for users, a program such as <a href="https://github.com/gorilla-devs/ferium">Ferium</a> is recommended)</p>
-<h2 id="why-sculk">Why Sculk?</h2>
-<ul>
-<li><strong>Multi-source support</strong>: Sculk allows one mod to have multiple sources (e.g. Curseforge, Modrinth, and a URL). This means that you can export Modrinth and Curseforge modpacks from the same Sculk modpack.</li>
-<li><strong>Content support</strong>: Sculk supports mods, datapacks, resource packs, and shader packs - as well as any other files you want to include in your modpack (e.g. config).</li>
-<li><strong>Ease of use</strong>: Sculk is designed to be easy to use, with a simple command-line interface (with nice prompts!).</li>
-<li><strong>Import support</strong>: Sculk allows you to convert an existing Modrinth, Curseforge, or Packwiz modpack into a Sculk modpack.</li>
-<li><strong>Dependency management</strong>: Sculk automatically installs dependencies for you, and will keep track of them so that they can be removed if their dependant is.</li>
-<li><em>[Planned]</em> <strong>Rollback system</strong>: Sculk keeps track of changes made to the modpack, so that you can easily revert changes - because it's too easy to forget to keep your Git commits granular.</li>
-<li><em>[Planned]</em> <strong>Publishing support</strong>: Sculk can export to Curseforge and Modrinth modpacks, and can even publish them for you from the command line.</li>
-</ul>
-<h2 id="how">How?</h2>
-<p><em>TODO: packaging solution and docs on it here</em></p>
-<p>Once Sculk is installed and on your <code>PATH</code>, you can follow the <a href="guides/getting-started/">getting started guide</a>. </p>
-<p>There is also documentation on specific commands and the manifest format Sculk uses, which can be found in the navbar.</p>
+
 
 
 
@@ -825,14 +734,14 @@ Sculk is still in early development and may be unstable</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.expand", "navigation.top", "search.suggest", "search.share", "content.code.annotate"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.expand", "navigation.top", "search.suggest", "search.share", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.dd8806f2.min.js"></script>
+      <script src="../../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
-        <script src="js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
     
   </body>
