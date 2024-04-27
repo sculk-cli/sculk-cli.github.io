@@ -30,7 +30,16 @@ Sculk is a CLI tool for creating Minecraft modpacks, much like Packwiz. It is
 
 ## How?
 
-_TODO: packaging solution and docs on it here_
+To install Sculk, first make sure you have Java 17 or greater installed, then:
+
+- On Linux/MacOS, run
+  `python3 <(wget https://raw.githubusercontent.com/sculk-cli/sculk/main/install.py -q -O-)`
+- On Windows, run
+  `Invoke-WebRequest -Uri "https://raw.githubusercontent.com/sculk-cli/sculk/main/install.py" -OutFile "install.py"; python3 .\install.py`
+
+!!! tip
+
+    If you'd rather install Sculk manually, download `sculk.zip` from the [latest release](https://github.com/sculk-cli/sculk/releases/latest). Extract it and make sure that the `bin` directory is in your `PATH`
 
 Once Sculk is installed and on your `PATH`, you can follow the
 [getting started guide](./guides/getting-started.md). The
