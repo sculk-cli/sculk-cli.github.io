@@ -7,8 +7,8 @@ There are two ways to start a Sculk modpack:
    for several inputs before a skeleton modpack is created.
 2. Importing an existing pack from Modrinth or Curseforge (Packwiz import
    support is planned in the future): run
-   [`sculk import mr <path to .mrpack>`](../commands/import/mr.md) or
-   [`sculk import cf <path to curseforge pack .zip>`](../commands/import/cf.md).
+   [`sculk import mr <path to .mrpack>`](../commands/import/modrinth.md) or
+   [`sculk import cf <path to curseforge pack .zip>`](../commands/import/curseforge.md).
    This imports all of the projects and files from the existing modpack,
    converting them to Sculk manifests where possible.
 
@@ -20,8 +20,8 @@ this site.
 
     You can type to filter list prompts such as the Minecraft version prompt.
 
-Use the [`sculk add mr <search query or mod slug>`](../commands/add/mr.md),
-[`sculk add cf <search query or mod slug>`](../commands/add/cf.md), or [`<sculk add url>`](../commands/add/url.md) commands to add
+Use the [`sculk add mr <search query or mod slug>`](../commands/add/modrinth.md),
+[`sculk add cf <search query or mod slug>`](../commands/add/curseforge.md), or [`<sculk add url>`](../commands/add/url.md) commands to add
 mods (or shaderpacks, datapacks, etc.) to your modpack. To add files such as
 configs, just place the file in the correct folder and run `sculk refresh`.
 
