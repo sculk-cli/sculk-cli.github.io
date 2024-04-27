@@ -12,28 +12,28 @@
         <meta name="author" content="The Sculk Team">
       
       
-        <link rel="canonical" href="https://sculk-cli.github.io/commands/init/">
+        <link rel="canonical" href="https://sculk-cli.github.io/how-it-works/">
       
       
-        <link rel="prev" href="../../guides/getting-started/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../../manifest-format/manifest-sculk-json/">
+        <link rel="next" href="../guides/getting-started/">
       
       
-      <link rel="icon" href="../../assets/sculk-icon.png">
+      <link rel="icon" href="../assets/sculk-icon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.19">
     
     
       
-        <title>Init - Sculk</title>
+        <title>How It Works - Sculk</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,11 +52,11 @@
       
     
     
-      <link rel="stylesheet" href="../../css/timeago.css">
+      <link rel="stylesheet" href="../css/timeago.css">
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -65,11 +65,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Init - Sculk" >
+        <meta  property="og:title"  content="How It Works - Sculk" >
       
         <meta  property="og:description"  content="Documentation for Sculk, a program for creating Minecraft modpacks." >
       
-        <meta  property="og:image"  content="https://sculk-cli.github.io/assets/images/social/commands/init.png" >
+        <meta  property="og:image"  content="https://sculk-cli.github.io/assets/images/social/how-it-works.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -77,15 +77,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://sculk-cli.github.io/commands/init/" >
+        <meta  property="og:url"  content="https://sculk-cli.github.io/how-it-works/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Init - Sculk" >
+        <meta  name="twitter:title"  content="How It Works - Sculk" >
       
         <meta  name="twitter:description"  content="Documentation for Sculk, a program for creating Minecraft modpacks." >
       
-        <meta  name="twitter:image"  content="https://sculk-cli.github.io/assets/images/social/commands/init.png" >
+        <meta  name="twitter:image"  content="https://sculk-cli.github.io/assets/images/social/how-it-works.png" >
       
     
     
@@ -105,6 +105,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#dependency-tracking" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -117,7 +122,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="https://github.com/sculk-cli" title="Sculk" class="md-header__button md-logo" aria-label="Sculk" data-md-component="logo">
       
-  <img src="../../assets/sculk-icon.png" alt="logo">
+  <img src="../assets/sculk-icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -134,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Init
+              How It Works
             
           </span>
         </div>
@@ -222,7 +227,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -237,9 +242,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../../how-it-works/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -258,7 +265,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../guides/getting-started/" class="md-tabs__link">
+        <a href="../guides/getting-started/" class="md-tabs__link">
           
   
     
@@ -274,13 +281,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../commands/init/" class="md-tabs__link">
           
   
     
@@ -300,7 +305,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../manifest-format/manifest-sculk-json/" class="md-tabs__link">
+        <a href="../manifest-format/manifest-sculk-json/" class="md-tabs__link">
           
   
     
@@ -337,7 +342,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://github.com/sculk-cli" title="Sculk" class="md-nav__button md-logo" aria-label="Sculk" data-md-component="logo">
       
-  <img src="../../assets/sculk-icon.png" alt="logo">
+  <img src="../assets/sculk-icon.png" alt="logo">
 
     </a>
     Sculk
@@ -364,7 +369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -381,10 +386,28 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../how-it-works/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    How It Works
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -393,6 +416,42 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dependency-tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependency Tracking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exporting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -448,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/getting-started/" class="md-nav__link">
+      <a href="../guides/getting-started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -473,10 +532,8 @@
       
   
   
-    
   
   
-  
     
     
       
@@ -485,20 +542,19 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -509,7 +565,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Commands
@@ -520,17 +576,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../commands/init/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -539,7 +588,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -603,7 +651,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../manifest-format/manifest-sculk-json/" class="md-nav__link">
+      <a href="../manifest-format/manifest-sculk-json/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -642,6 +690,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dependency-tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependency Tracking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exporting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exporting
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -658,9 +732,106 @@
   
 
 
-  <h1>Init</h1>
+  <h1>How It Works</h1>
 
-
+<p>A Sculk modpack is comprised of a root manifest (<code>manifest.sculk.json</code>), many
+file manifests (such as <code>mods/sodium.sculk.json</code>), and other files (such as
+<code>config/sodium.json</code>).</p>
+<p>The root manifest stores metadata about the modpack, such as its name and
+Minecraft version, as well as a list of manifests and files:</p>
+<ul>
+<li>Manifests store metadata about specific file downloads. They include metadata
+  such as the files name and its installation side. They also include the data
+  required to download the file from either of 3 sources: Modrinth, Curseforge,
+  or a direct URL. File manifests can include multiple sources, so that the most
+  appropriate one can be used when exporting (i.e. use the Modrinth metadata to
+  export to a Modrinth pack, but the Curseforge metadata to export to a
+  Curseforge pack).</li>
+<li>Files are directly stored on the file system (rather than being a manifest).
+  The root manifest stores their path, installation side (e.g. for client-side
+  only configs), and their SHA256 hash for integrity checking.</li>
+</ul>
+<p><img alt="A hierarchy diagram showing how Sculk modpacks work" src="../assets/how-it-works.svg" /></p>
+<h2 id="dependency-tracking">Dependency Tracking</h2>
+<p>When you add a mod from Modrinth or Curseforge, Sculk automatically recursively
+adds its dependencies to the pack if they do not already exist. Sculk also
+<em>tracks</em> these dependencies so that if you remove the dependant mod in the
+future, the dependencies can also be removed (assuming no other mods require
+them). Let's use an example:</p>
+<ol>
+<li>You add Utility Belt to your empty Fabric modpack using
+   <code>sculk mr add utility-belt</code>. This adds Utility Belt, Architectury API,
+   JamLib, Trinkets, and Fabric API.</li>
+</ol>
+<p>The dependency graph, stored at <code>dependency-graph.sculk.json</code>, now looks like
+   this:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">&quot;mods/trinkets.sculk.json&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="s2">&quot;mods/utility-belt.sculk.json&quot;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="p">],</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="nt">&quot;mods/fabric-api.sculk.json&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="s2">&quot;mods/utility-belt.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="s2">&quot;mods/architectury-api.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="s2">&quot;mods/jamlib.sculk.json&quot;</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">  </span><span class="p">],</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">  </span><span class="nt">&quot;mods/architectury-api.sculk.json&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="s2">&quot;mods/jamlib.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="s2">&quot;mods/utility-belt.sculk.json&quot;</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">  </span><span class="p">],</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">  </span><span class="nt">&quot;mods/jamlib.sculk.json&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="s2">&quot;mods/utility-belt.sculk.json&quot;</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">  </span><span class="p">]</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="p">}</span>
+</code></pre></div>
+<p>The graph stores a list of <code>&lt;dependency mod&gt;</code> to a list of its <code>&lt;dependant mods&gt;</code></p>
+<ol start="2">
+<li>You also add Wake Up Time, which does not add any other dependencies since
+   they are already satisfied. It does, however, add itself to the dependency
+   graph:</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="nt">&quot;mods/trinkets.sculk.json&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="s2">&quot;mods/utility-belt.sculk.json&quot;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="p">],</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="nt">&quot;mods/fabric-api.sculk.json&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="s2">&quot;mods/utility-belt.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="s2">&quot;mods/architectury-api.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="s2">&quot;mods/jamlib.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="s2">&quot;mods/wake-up-time.sculk.json&quot;</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">  </span><span class="p">],</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">  </span><span class="nt">&quot;mods/architectury-api.sculk.json&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="s2">&quot;mods/jamlib.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="s2">&quot;mods/utility-belt.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="s2">&quot;mods/wake-up-time.sculk.json&quot;</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">  </span><span class="p">],</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">  </span><span class="nt">&quot;mods/jamlib.sculk.json&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="s2">&quot;mods/utility-belt.sculk.json&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">    </span><span class="s2">&quot;mods/wake-up-time.sculk.json&quot;</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">  </span><span class="p">]</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="p">}</span>
+</code></pre></div>
+<ol start="3">
+<li>You decide to remove Utility Belt. This also removed Trinkets, since Trinkets
+   has no more dependants.</li>
+<li>You also want to remove Wake Up Time. This removes JamLib, Architectury API,
+   and Fabric API, since they also have no more dependants.</li>
+</ol>
+<h2 id="exporting">Exporting</h2>
+<p>There are 3 methods for exporting/installing a Sculk modpack:</p>
+<ol>
+<li>Direct Install (<code>sculk install</code>): this method directly downloads a Sculk
+   manifest and traverses it to download all the files for the selected side.
+   When a manifest is encountered, it downloads the file from one of the sources
+   that manifest specifies, and when a file is encountered it copies it over to
+   the correct folder.</li>
+<li>Modrinth Export (<code>sculk export mr</code>): this method exports a Modrinth <code>mrpack</code>
+   modpack. For manifests, it uses either the Modrinth or URL source (assuming
+   the URL source is on the allowed URL list), and for files it copies them into
+   the common, client, or server override folder in the modpack.</li>
+<li>Curseforge Export (<code>sculk export cf</code>): this method exports a Curseforge
+   <code>.zip</code> modpack. It functions similarly to the Modrinth export, but uses the
+   Curseforge source.</li>
+</ol>
 
 
 
@@ -681,7 +852,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-04-26T21:27:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-04-26</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-04-27T09:59:46+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-04-27</span>
   </span>
 
     
@@ -771,14 +942,14 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.expand", "navigation.top", "search.suggest", "search.share", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.expand", "navigation.top", "search.suggest", "search.share", "content.code.annotate"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.dd8806f2.min.js"></script>
+      <script src="../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
-        <script src="../../js/timeago.min.js"></script>
+        <script src="../js/timeago.min.js"></script>
       
-        <script src="../../js/timeago_mkdocs_material.js"></script>
+        <script src="../js/timeago_mkdocs_material.js"></script>
       
     
   </body>
