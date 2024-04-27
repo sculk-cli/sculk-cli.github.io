@@ -11,6 +11,7 @@ extra_css:
 
 nav:
   - Welcome: index.md
+  - 'How It Works': how-it-works.md
   - Guides:
     - 'Getting Started': guides/getting-started.md
   - Commands:
@@ -55,6 +56,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - md_in_html
+  - sane_lists
 
 extra:
   homepage: https://github.com/sculk-cli
