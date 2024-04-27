@@ -1,6 +1,8 @@
 ![Sculk: a program for creating Minecraft modpacks](https://github.com/sculk-cli/sculk/blob/main/banner.png?raw=true)
 
-> **Warning** Sculk is still in early development and may be unstable
+!!! warning
+
+    Sculk is still in early development and may be unstable
 
 Sculk is a CLI tool for creating Minecraft modpacks, much like Packwiz. It is
 **aimed at modpack creators**, rather than users (for users, a program such as

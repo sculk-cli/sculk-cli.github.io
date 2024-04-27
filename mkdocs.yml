@@ -15,7 +15,22 @@ nav:
   - Guides:
     - 'Getting Started': guides/getting-started.md
   - Commands:
+      - Completion: commands/completion.md
       - Init: commands/init.md
+      - Install: commands/install.md
+      - Modlist: commands/modlist.md
+      - Refresh: commands/refresh.md
+      - Remove: commands/remove.md
+      - Add:
+        - Curseforge: commands/add/curseforge.md
+        - Modrinth: commands/add/modrinth.md
+        - URL: commands/add/url.md
+      - Export:
+        - Curseforge: commands/export/curseforge.md
+        - Modrinth: commands/export/modrinth.md
+      - Import:
+        - Curseforge: commands/import/curseforge.md
+        - Modrinth: commands/import/modrinth.md
   - 'Manifest Format':
       - 'manifest.sculk.json': manifest-format/manifest-sculk-json.md
 
@@ -53,6 +68,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
   - pymdownx.tabbed:
       alternate_style: true
   - md_in_html
