@@ -14,6 +14,7 @@ nav:
   - "How It Works": how-it-works.md
   - Guides:
       - "Getting Started": guides/getting-started.md
+      - "Finding Mods Using the Userscript": guides/finding-mods-using-the-userscript.md
       - "Installing from GitHub": guides/installing-from-github.md
       - "Checking with GitHub Actions": guides/checking-with-github-actions.md
   - Commands:
@@ -27,6 +28,7 @@ nav:
           - Curseforge: commands/add/curseforge.md
           - Modrinth: commands/add/modrinth.md
           - URL: commands/add/url.md
+          - List: commands/add/list.md
       - Export:
           - Curseforge: commands/export/curseforge.md
           - Modrinth: commands/export/modrinth.md
