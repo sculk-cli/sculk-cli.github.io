@@ -50,12 +50,12 @@
 - description: The path to the file.
 - type: `string` (path) 
 
-### `manifests[].sha256`
+### `files[].sha256`
 
 - description: The SHA256 hash of the file.
 - type: `string` 
 
-### `manifests[].side`
+### `files[].side`
 
 - description: The side that the file should be installed on.
 - type: `client_only | server_only | both`
