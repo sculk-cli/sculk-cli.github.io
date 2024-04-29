@@ -11,9 +11,10 @@ extra_css:
 
 nav:
   - Welcome: index.md
-  - 'How It Works': how-it-works.md
+  - "How It Works": how-it-works.md
   - Guides:
-    - 'Getting Started': guides/getting-started.md
+      - "Getting Started": guides/getting-started.md
+      - "Checking with GitHub Actions": guides/checking-with-github-actions.md
   - Commands:
       - Completion: commands/completion.md
       - Init: commands/init.md
@@ -22,17 +23,17 @@ nav:
       - Refresh: commands/refresh.md
       - Remove: commands/remove.md
       - Add:
-        - Curseforge: commands/add/curseforge.md
-        - Modrinth: commands/add/modrinth.md
-        - URL: commands/add/url.md
+          - Curseforge: commands/add/curseforge.md
+          - Modrinth: commands/add/modrinth.md
+          - URL: commands/add/url.md
       - Export:
-        - Curseforge: commands/export/curseforge.md
-        - Modrinth: commands/export/modrinth.md
+          - Curseforge: commands/export/curseforge.md
+          - Modrinth: commands/export/modrinth.md
       - Import:
-        - Curseforge: commands/import/curseforge.md
-        - Modrinth: commands/import/modrinth.md
-  - 'Manifest Format':
-      - 'manifest.sculk.json': manifest-format/manifest-sculk-json.md
+          - Curseforge: commands/import/curseforge.md
+          - Modrinth: commands/import/modrinth.md
+  - "Manifest Format":
+      - "manifest.sculk.json": manifest-format/manifest-sculk-json.md
 
 theme:
   name: material
@@ -50,7 +51,7 @@ theme:
     - search.suggest
     - search.share
     - content.code.annotate
-    
+
   palette:
     scheme: default
     primary: custom
