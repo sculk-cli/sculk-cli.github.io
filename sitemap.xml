@@ -86,6 +86,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sculk-cli.github.io/guides/installing-from-github/</loc>
+         <lastmod>2024-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sculk-cli.github.io/manifest-format/manifest-sculk-json/</loc>
          <lastmod>2024-04-29</lastmod>
          <changefreq>daily</changefreq>
