@@ -37,6 +37,8 @@ nav:
           - Modrinth: commands/import/modrinth.md
   - "Manifest Format":
       - "manifest.sculk.json": manifest-format/manifest-sculk-json.md
+      - "dependency-graph.sculk.json": manifest-format/dependency-graph-sculk-json.md
+      - "Manifest File": manifest-format/manifest-file.md
 
 theme:
   name: material
