@@ -1,5 +1,10 @@
 # Fields
 
+## `formatVersion`
+
+- description: The format version of the modpack. [see [Versioning](./versioning.md)]
+- type: `string`
+
 ## `name`
 
 - description: The name of the modpack. Used in exports.

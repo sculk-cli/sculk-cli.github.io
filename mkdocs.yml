@@ -36,6 +36,7 @@ nav:
           - Curseforge: commands/import/curseforge.md
           - Modrinth: commands/import/modrinth.md
   - "Manifest Format":
+      - Versioning: manifest-format/versioning.md
       - "manifest.sculk.json": manifest-format/manifest-sculk-json.md
       - "dependency-graph.sculk.json": manifest-format/dependency-graph-sculk-json.md
       - "Manifest File": manifest-format/manifest-file.md
