@@ -2,117 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sculk-cli.github.io/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/how-it-works/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/completion/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/init/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/install/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/modlist/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/refresh/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/remove/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/add/curseforge/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/add/list/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/add/modrinth/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/add/url/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/export/curseforge/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/export/modrinth/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/import/curseforge/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/import/modrinth/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/guides/checking-with-github-actions/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/guides/finding-mods-using-the-userscript/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/guides/getting-started/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/guides/installing-from-github/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/manifest-format/dependency-graph-sculk-json/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/manifest-format/manifest-file/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sculk-cli.github.io/manifest-format/manifest-sculk-json/</loc>
-         <lastmod>2024-04-29</lastmod>
+         <lastmod>2024-05-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sculk-cli.github.io/manifest-format/versioning/</loc>
+         <lastmod>2024-05-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
