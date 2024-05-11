@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sculk-cli.github.io/commands/completion/</loc>
+         <lastmod>2024-05-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sculk-cli.github.io/commands/init/</loc>
          <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
@@ -36,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sculk-cli.github.io/commands/refresh/</loc>
+         <lastmod>2024-05-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sculk-cli.github.io/commands/remove/</loc>
          <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
@@ -47,6 +57,11 @@
     </url>
     <url>
          <loc>https://sculk-cli.github.io/commands/add/curseforge/</loc>
+         <lastmod>2024-05-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sculk-cli.github.io/commands/add/list/</loc>
          <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
