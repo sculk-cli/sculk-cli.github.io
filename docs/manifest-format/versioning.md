@@ -12,3 +12,7 @@ The current latest version is **1.0**.
 ### V1.0
 
 - Initial public alpha release.
+
+### V1.1
+
+- Add a `murmur2` field to the `hashes` object of file manifests.

@@ -17,15 +17,20 @@ A manifest file is any file that ends with `.sculk.json` and is not the root man
 - description: The hashes of the downloaded file.
 - type: `object`
 
-### `loader.sha1`
+### `hashes.sha1`
 
 - description: The SHA1 hash of the downloaded file.
 - type: `string`
 
-### `loader.sha512`
+### `hashes.sha512`
 
 - description: The SHA512 hash of the downloaded file.
 - type: `string`
+
+### `hashes.murmur2`
+
+- description: The Murmur2 (Curseforge variant) hash of the downloaded file.
+- type: `int`
 
 ## `fileSize`
 
