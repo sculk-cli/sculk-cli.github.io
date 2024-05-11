@@ -21,14 +21,17 @@ nav:
       - Completion: commands/completion.md
       - Init: commands/init.md
       - Install: commands/install.md
+      - Link: commands/link.md
+      - Migrate: commands/migrate.md
       - Modlist: commands/modlist.md
       - Refresh: commands/refresh.md
       - Remove: commands/remove.md
+      - Update: commands/update.md
       - Add:
           - Curseforge: commands/add/curseforge.md
+          - List: commands/add/list.md
           - Modrinth: commands/add/modrinth.md
           - URL: commands/add/url.md
-          - List: commands/add/list.md
       - Export:
           - Curseforge: commands/export/curseforge.md
           - Modrinth: commands/export/modrinth.md
