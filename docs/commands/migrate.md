@@ -1,1 +1,5 @@
-_Migrate a pack to the latest format version_
+Migrate a pack to the latest format version.
+
+## Usage
+
+- `sculk migrate`

@@ -1,1 +1,9 @@
-_Import a Modrinth modpack (.mrpack)_
+Import a Modrinth modpack (.mrpack).
+
+## Usage
+
+- `sculk import modrinth <modpack>`
+
+## Options
+
+- `<modpack>`: the path to the modpack file.

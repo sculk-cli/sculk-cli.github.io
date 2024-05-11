@@ -1,1 +1,5 @@
-_Export a Modrinth modpack (.mrpack)_
+Export a Modrinth modpack (.mrpack).
+
+## Usage
+
+- `sculk export modrinth`

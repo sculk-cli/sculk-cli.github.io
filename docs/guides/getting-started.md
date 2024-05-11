@@ -26,6 +26,10 @@ mods (or shaderpacks, datapacks, etc.) to your modpack. To add files such as
 configs, just place the file in the correct folder and run `sculk refresh`.
 
 !!! info
+    
+    You can use the [`sculk link`](../commands/link.md) command to find Curseforge/Modrinth projects for already added projects.
+
+!!! info
 
     If you have a file which you _do not_ want to be added when you run `sculk refresh`, add it to a `.sculkignore` file.
 
