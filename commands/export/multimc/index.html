@@ -12,26 +12,24 @@
         <meta name="author" content="The Sculk Team">
       
       
-        <link rel="canonical" href="https://sculk-cli.github.io/manifest-format/manifest-file/">
-      
-      
-        <link rel="prev" href="../dependency-graph-sculk-json/">
+        <link rel="canonical" href="https://sculk-cli.github.io/commands/export/multimc/">
       
       
       
-      <link rel="icon" href="../../assets/sculk-icon.png">
+      
+      <link rel="icon" href="../../../assets/sculk-icon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
     
     
       
-        <title>Manifest File - Sculk</title>
+        <title>Multimc - Sculk</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,11 +48,11 @@
       
     
     
-      <link rel="stylesheet" href="../../css/timeago.css">
+      <link rel="stylesheet" href="../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -63,11 +61,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Manifest File - Sculk" >
+        <meta  property="og:title"  content="Multimc - Sculk" >
       
         <meta  property="og:description"  content="Documentation for Sculk, a program for creating Minecraft modpacks." >
       
-        <meta  property="og:image"  content="https://sculk-cli.github.io/assets/images/social/manifest-format/manifest-file.png" >
+        <meta  property="og:image"  content="https://sculk-cli.github.io/assets/images/social/commands/export/multimc.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -75,15 +73,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://sculk-cli.github.io/manifest-format/manifest-file/" >
+        <meta  property="og:url"  content="https://sculk-cli.github.io/commands/export/multimc/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Manifest File - Sculk" >
+        <meta  name="twitter:title"  content="Multimc - Sculk" >
       
         <meta  name="twitter:description"  content="Documentation for Sculk, a program for creating Minecraft modpacks." >
       
-        <meta  name="twitter:image"  content="https://sculk-cli.github.io/assets/images/social/manifest-format/manifest-file.png" >
+        <meta  name="twitter:image"  content="https://sculk-cli.github.io/assets/images/social/commands/export/multimc.png" >
       
     
     
@@ -104,7 +102,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#fields" class="md-skip">
+        <a href="#usage" class="md-skip">
           Skip to content
         </a>
       
@@ -120,7 +118,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="https://github.com/sculk-cli" title="Sculk" class="md-header__button md-logo" aria-label="Sculk" data-md-component="logo">
       
-  <img src="../../assets/sculk-icon.png" alt="logo">
+  <img src="../../../assets/sculk-icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -137,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Manifest File
+              Multimc
             
           </span>
         </div>
@@ -225,7 +223,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
     
@@ -242,7 +240,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../how-it-works/" class="md-tabs__link">
+      <a href="../../../how-it-works/" class="md-tabs__link">
         
   
     
@@ -261,7 +259,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../guides/getting-started/" class="md-tabs__link">
+        <a href="../../../guides/getting-started/" class="md-tabs__link">
           
   
     
@@ -281,7 +279,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../commands/completion/" class="md-tabs__link">
+        <a href="../../completion/" class="md-tabs__link">
           
   
     
@@ -297,13 +295,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../versioning/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../../manifest-format/versioning/" class="md-tabs__link">
           
   
     
@@ -340,7 +336,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://github.com/sculk-cli" title="Sculk" class="md-nav__button md-logo" aria-label="Sculk" data-md-component="logo">
       
-  <img src="../../assets/sculk-icon.png" alt="logo">
+  <img src="../../../assets/sculk-icon.png" alt="logo">
 
     </a>
     Sculk
@@ -367,7 +363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -387,7 +383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/" class="md-nav__link">
+      <a href="../../../how-it-works/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -457,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/getting-started/" class="md-nav__link">
+      <a href="../../../guides/getting-started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -478,7 +474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/finding-mods-using-the-userscript/" class="md-nav__link">
+      <a href="../../../guides/finding-mods-using-the-userscript/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -499,7 +495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/installing-from-github/" class="md-nav__link">
+      <a href="../../../guides/installing-from-github/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -520,7 +516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../guides/checking-with-github-actions/" class="md-nav__link">
+      <a href="../../../guides/checking-with-github-actions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -614,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/completion/" class="md-nav__link">
+      <a href="../../completion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -635,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/init/" class="md-nav__link">
+      <a href="../../init/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -656,7 +652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/install/" class="md-nav__link">
+      <a href="../../install/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -677,7 +673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/link/" class="md-nav__link">
+      <a href="../../link/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -698,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/migrate/" class="md-nav__link">
+      <a href="../../migrate/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -719,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/modlist/" class="md-nav__link">
+      <a href="../../modlist/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -740,7 +736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/refresh/" class="md-nav__link">
+      <a href="../../refresh/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -761,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/remove/" class="md-nav__link">
+      <a href="../../remove/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -782,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/update/" class="md-nav__link">
+      <a href="../../update/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -853,7 +849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/add/curseforge/" class="md-nav__link">
+      <a href="../../add/curseforge/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -874,7 +870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/add/list/" class="md-nav__link">
+      <a href="../../add/list/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -895,7 +891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/add/modrinth/" class="md-nav__link">
+      <a href="../../add/modrinth/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -916,7 +912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/add/url/" class="md-nav__link">
+      <a href="../../add/url/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -991,7 +987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/export/curseforge/" class="md-nav__link">
+      <a href="../curseforge/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1012,7 +1008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/export/modrinth/" class="md-nav__link">
+      <a href="../modrinth/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1087,7 +1083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/import/curseforge/" class="md-nav__link">
+      <a href="../../import/curseforge/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1108,7 +1104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/import/modrinth/" class="md-nav__link">
+      <a href="../../import/modrinth/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1141,10 +1137,8 @@
       
   
   
-    
   
   
-  
     
     
       
@@ -1159,20 +1153,19 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1183,7 +1176,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Manifest Format
@@ -1197,7 +1190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../versioning/" class="md-nav__link">
+      <a href="../../../manifest-format/versioning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1218,7 +1211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../manifest-sculk-json/" class="md-nav__link">
+      <a href="../../../manifest-format/manifest-sculk-json/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1239,7 +1232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dependency-graph-sculk-json/" class="md-nav__link">
+      <a href="../../../manifest-format/dependency-graph-sculk-json/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1257,30 +1250,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Manifest File
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../manifest-format/manifest-file/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1289,209 +1262,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#filename" class="md-nav__link">
-    <span class="md-ellipsis">
-      filename
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#side" class="md-nav__link">
-    <span class="md-ellipsis">
-      side
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hashes" class="md-nav__link">
-    <span class="md-ellipsis">
-      hashes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="hashes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hashessha1" class="md-nav__link">
-    <span class="md-ellipsis">
-      hashes.sha1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hashessha512" class="md-nav__link">
-    <span class="md-ellipsis">
-      hashes.sha512
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hashesmurmur2" class="md-nav__link">
-    <span class="md-ellipsis">
-      hashes.murmur2
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#filesize" class="md-nav__link">
-    <span class="md-ellipsis">
-      fileSize
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sources" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="sources">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sourcescurseforge" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.curseforge
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="sources.curseforge">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sourcescurseforgeprojectid" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.curseforge.projectId
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcescurseforgefileid" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.curseforge.fileId
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcescurseforgefileurl" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.curseforge.fileUrl
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcesmodrinth" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.modrinth
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="sources.modrinth">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sourcesmodrinthprojectid" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.modrinth.projectId
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcesmodrinthfileurl" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.modrinth.fileUrl
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcesurl" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.url
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="sources.url">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sourcesmodrinthurl" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.modrinth.url
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1521,8 +1291,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1531,185 +1299,20 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#filename" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
-      filename
+      Usage
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#side" class="md-nav__link">
+  <a href="#options" class="md-nav__link">
     <span class="md-ellipsis">
-      side
+      Options
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hashes" class="md-nav__link">
-    <span class="md-ellipsis">
-      hashes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="hashes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hashessha1" class="md-nav__link">
-    <span class="md-ellipsis">
-      hashes.sha1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hashessha512" class="md-nav__link">
-    <span class="md-ellipsis">
-      hashes.sha512
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hashesmurmur2" class="md-nav__link">
-    <span class="md-ellipsis">
-      hashes.murmur2
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#filesize" class="md-nav__link">
-    <span class="md-ellipsis">
-      fileSize
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sources" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="sources">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sourcescurseforge" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.curseforge
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="sources.curseforge">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sourcescurseforgeprojectid" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.curseforge.projectId
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcescurseforgefileid" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.curseforge.fileId
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcescurseforgefileurl" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.curseforge.fileUrl
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcesmodrinth" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.modrinth
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="sources.modrinth">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sourcesmodrinthprojectid" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.modrinth.projectId
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcesmodrinthfileurl" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.modrinth.fileUrl
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sourcesurl" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.url
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="sources.url">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sourcesmodrinthurl" class="md-nav__link">
-    <span class="md-ellipsis">
-      sources.modrinth.url
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1731,92 +1334,17 @@
   
 
 
-<p>A manifest file is any file that ends with <code>.sculk.json</code> and is not the root manifest.</p>
-<h1 id="fields">Fields</h1>
-<h2 id="filename"><code>filename</code></h2>
+  <h1>Multimc</h1>
+
+<p>Export a MultiMC-compatible (i.e. MultiMC, Prism, etc.) modpack (<code>.zip</code>).</p>
+<h2 id="usage">Usage</h2>
 <ul>
-<li>description: The name of the downloaded file.</li>
-<li>type: <code>string</code></li>
+<li><code>sculk export multimc</code></li>
+<li>`sculk export multimc --pack-url <pack_url></li>
 </ul>
-<h2 id="side"><code>side</code></h2>
+<h2 id="options">Options</h2>
 <ul>
-<li>description: The side that the file should be installed on.</li>
-<li>type: <code>client_only | server_only | both</code></li>
-</ul>
-<h2 id="hashes"><code>hashes</code></h2>
-<ul>
-<li>description: The hashes of the downloaded file.</li>
-<li>type: <code>object</code></li>
-</ul>
-<h3 id="hashessha1"><code>hashes.sha1</code></h3>
-<ul>
-<li>description: The SHA1 hash of the downloaded file.</li>
-<li>type: <code>string</code></li>
-</ul>
-<h3 id="hashessha512"><code>hashes.sha512</code></h3>
-<ul>
-<li>description: The SHA512 hash of the downloaded file.</li>
-<li>type: <code>string</code></li>
-</ul>
-<h3 id="hashesmurmur2"><code>hashes.murmur2</code></h3>
-<ul>
-<li>description: The Murmur2 (Curseforge variant) hash of the downloaded file.</li>
-<li>type: <code>int</code></li>
-</ul>
-<h2 id="filesize"><code>fileSize</code></h2>
-<ul>
-<li>description: The size of the downloaded file, in bytes.</li>
-<li>type: <code>int</code></li>
-</ul>
-<h2 id="sources"><code>sources</code></h2>
-<ul>
-<li>description: The sources that can be used to download the file.</li>
-<li>type: <code>object</code></li>
-</ul>
-<h3 id="sourcescurseforge"><code>sources.curseforge</code></h3>
-<ul>
-<li>description: The Curseforge source.</li>
-<li>type: <code>object?</code></li>
-</ul>
-<h4 id="sourcescurseforgeprojectid"><code>sources.curseforge.projectId</code></h4>
-<ul>
-<li>description: The Curseforge project ID.</li>
-<li>type: <code>int</code></li>
-</ul>
-<h4 id="sourcescurseforgefileid"><code>sources.curseforge.fileId</code></h4>
-<ul>
-<li>description: The Curseforge file ID.</li>
-<li>type: <code>int</code></li>
-</ul>
-<h4 id="sourcescurseforgefileurl"><code>sources.curseforge.fileUrl</code></h4>
-<ul>
-<li>description: The Curseforge file download URL.</li>
-<li>type: <code>string</code></li>
-</ul>
-<h3 id="sourcesmodrinth"><code>sources.modrinth</code></h3>
-<ul>
-<li>description: The Modrinth source.</li>
-<li>type: <code>object?</code></li>
-</ul>
-<h4 id="sourcesmodrinthprojectid"><code>sources.modrinth.projectId</code></h4>
-<ul>
-<li>description: The Modrinth project ID.</li>
-<li>type: <code>string</code></li>
-</ul>
-<h4 id="sourcesmodrinthfileurl"><code>sources.modrinth.fileUrl</code></h4>
-<ul>
-<li>description: The Modrinth file download URL.</li>
-<li>type: <code>string</code></li>
-</ul>
-<h3 id="sourcesurl"><code>sources.url</code></h3>
-<ul>
-<li>description: The URL source.</li>
-<li>type: <code>object?</code></li>
-</ul>
-<h4 id="sourcesmodrinthurl"><code>sources.modrinth.url</code></h4>
-<ul>
-<li>description: The file download URL.</li>
-<li>type: <code>string</code></li>
+<li><code>pack_url</code>: the URL (or local path) to download/update the pack from (see the <a href="../../../guides/installing-from-github/">installing from GitHub</a> if you are using GitHub).</li>
 </ul>
 
 
@@ -1838,7 +1366,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-05-11T18:22:48+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-05-11</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-06-14T14:20:41+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-06-14</span>
   </span>
 
     
@@ -1928,14 +1456,14 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.expand", "navigation.top", "search.suggest", "search.share", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.expand", "navigation.top", "search.suggest", "search.share", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
-        <script src="../../js/timeago.min.js"></script>
+        <script src="../../../js/timeago.min.js"></script>
       
-        <script src="../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
     
   </body>
