@@ -35,6 +35,7 @@ nav:
       - Export:
           - Curseforge: commands/export/curseforge.md
           - Modrinth: commands/export/modrinth.md
+          - MultiMC: commands/export/multimc.md
       - Import:
           - Curseforge: commands/import/curseforge.md
           - Modrinth: commands/import/modrinth.md
