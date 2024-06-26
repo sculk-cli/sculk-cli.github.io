@@ -29,6 +29,7 @@ nixpkgs.overlays = [
 
 Below is an example of how to use the `fetchSculkModpack` function along with [nix-minecraft](https://github.com/Infinidoge/nix-minecraft).
 
+```nix
 services.minecraft-servers = let
     modpack = inputs.sculk.nixFunctions.fetchSculkModpack { inherit (pkgs) stdenvNoCC sculk jre_headless; } {
       url = "https://raw.githubusercontent.com/Jamalam360/pack/bd19d74601963becab9eb1232d12412133132812";
@@ -51,3 +52,4 @@ services.minecraft-servers = let
       jvmOpts = "-Xmx10G -Xms10G";
     };
   };
+```
