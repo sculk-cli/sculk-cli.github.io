@@ -17,6 +17,7 @@ nav:
       - "Finding Mods Using the Userscript": guides/finding-mods-using-the-userscript.md
       - "Installing from GitHub": guides/installing-from-github.md
       - "Checking with GitHub Actions": guides/checking-with-github-actions.md
+      - "Using with Nix": guides/using-with-nix.md
   - Commands:
       - Completion: commands/completion.md
       - Init: commands/init.md
