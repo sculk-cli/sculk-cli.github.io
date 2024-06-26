@@ -5,6 +5,6 @@ Adds projects to the manifest from a
 
 - `sculk add list <file>`
 
-Arguments:
+## Options
 
 - `file`: the path to the list file.

@@ -31,25 +31,25 @@ Below is an example of how to use the `fetchSculkModpack` function along with [n
 
 ```nix
 services.minecraft-servers = let
-    modpack = inputs.sculk.nixFunctions.fetchSculkModpack { inherit (pkgs) stdenvNoCC sculk jre_headless; } {
-      url = "https://raw.githubusercontent.com/Jamalam360/pack/bd19d74601963becab9eb1232d12412133132812";
-      hash = "sha256-gQl2yx2V6wuF96wmHwSdEgQUHyP2zKFbe8/EPfUgbUY=";
-    };
-  in {
-    enable = true;
-    eula = true;
-    openFirewall = true;
-    dataDir = "/var/lib/minecraft-servers";
-
-    servers.minecraft-server = {
-      enable = true;
-      package = pkgs.minecraftServers.fabric-1_20_1;
-      autoStart = true;
-      restart = "always";
-      symlinks = {
-        "mods" = "${modpack}/mods";
-      };
-      jvmOpts = "-Xmx10G -Xms10G";
-    };
+  modpack = inputs.sculk.nixFunctions.fetchSculkModpack { inherit (pkgs) stdenvNoCC sculk jre_headless; } {
+    url = "https://raw.githubusercontent.com/Jamalam360/pack/bd19d74601963becab9eb1232d12412133132812";
+    hash = "sha256-gQl2yx2V6wuF96wmHwSdEgQUHyP2zKFbe8/EPfUgbUY=";
   };
+in {
+  enable = true;
+  eula = true;
+  openFirewall = true;
+  dataDir = "/var/lib/minecraft-servers";
+
+  servers.minecraft-server = {
+    enable = true;
+    package = pkgs.minecraftServers.fabric-1_20_1;
+    autoStart = true;
+    restart = "always";
+    symlinks = {
+      "mods" = "${modpack}/mods";
+    };
+    jvmOpts = "-Xmx10G -Xms10G";
+  };
+};
 ```
