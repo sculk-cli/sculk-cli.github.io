@@ -15,15 +15,7 @@ sculk = {
 
 Then run `nix flake update`.
 
-In `configuration.nix`, add Sculk as a nixpkgs overlay:
-
-```nix
-nixpkgs.overlays = [
-	inputs.sculk.overlay
-];
-```
-
-`pkgs.sculk` is now available.
+You can add Sculk as a package using `inputs.sculk.packages.<system>.sculk`.
 
 # Using `fetchSculkModpack`
 
@@ -31,7 +23,7 @@ Below is an example of how to use the `fetchSculkModpack` function along with [n
 
 ```nix
 services.minecraft-servers = let
-  modpack = inputs.sculk.nixFunctions.fetchSculkModpack { inherit (pkgs) stdenvNoCC sculk jre_headless; } {
+  modpack = inputs.sculk.lib.fetchSculkModpack { inherit (pkgs) stdenvNoCC jre_headless; sculk = inputs.sculk.packages.x86_64-linux.sculk; } {
     url = "https://raw.githubusercontent.com/Jamalam360/pack/bd19d74601963becab9eb1232d12412133132812";
     hash = "sha256-gQl2yx2V6wuF96wmHwSdEgQUHyP2zKFbe8/EPfUgbUY=";
   };
